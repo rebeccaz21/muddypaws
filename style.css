@@ -1,0 +1,64 @@
+font-family: "Nunito Sans", sans-serif;
+font-family: "Nunito", sans-serif;
+
+
+background: #BDCADB;
+box-shadow: 0 2px 5px 2px rgba(149,143,143,0.50);
+
+
+ body {
+ 	font-family: "Nunito", sans-serif;
+ }
+
+ h1 { 
+	background: #FFFFFF;
+	box-shadow: 0 0 5px 2px rgba(222,222,222,0.50);
+	font-family: "Nunito", sans-serif;
+	font-size: 50px;
+	color: #000000; 
+	letter-spacing: 0.78px;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: #BDCADB;
+ }
+
+ .nav {
+  background: #BDCADB;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.nav a {
+  color: black;
+  display: inline-block;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: white;
+}
+
+h2 {
+	font-family: "Nunito";
+	font-size: 24px;
+	color: #000000;
+	letter-spacing: 0.78px;
+	text-decoration: underline;
+	text-decoration-color: #BDCADB;
+
+}
+
+p {	
+	font-family: "Nunito";
+	font-size: 14px;
+	color: black;
+	letter-spacing: 0.78px;
+}
+
+
+
+
+
