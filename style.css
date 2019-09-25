@@ -126,6 +126,7 @@ p {
     padding-left: 20px;
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
 
 }
 
@@ -149,6 +150,76 @@ img.best-item {
     padding-left: 20px;
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
 
 }
 
+#product {
+	display:grid;
+	grid-template-columns: 300px 500px;
+	grid-template-rows: 400px;
+	grid-gap: 100px;
+	margin-top: 20px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+}
+
+img.backpack {
+	display: block;
+	max-width: 400px;
+	max-height: 400px;
+
+}
+
+#information h3 {
+	text-decoration: underline;
+	text-decoration-color: #BDCADB;
+}
+
+#size {
+	font-family: "Nunito", sans-serif;
+	font-size: 12px;
+}
+
+#color {
+	font-family: "Nunito", sans-serif;
+	font-size: 12px;
+
+}
+
+
+#color .strawberry {
+	font-family: "Nunito", sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	text-decoration-color: #F884BA;
+
+}
+
+#color .crazyberry {
+	font-family: "Nunito", sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	text-decoration-color: #65C4EC;
+
+}
+
+#color .fireorange {
+	font-family: "Nunito", sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	text-decoration-color: #F8B884;
+
+}
+
+#color .blackberry {
+	font-family: "Nunito", sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	text-decoration-color: #8489F8;
+	padding-bottom: 20px;
+
+}
