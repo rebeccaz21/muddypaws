@@ -17,6 +17,7 @@ body {
 	text-align: center;
 	text-decoration: underline;
 	text-decoration-color: white;
+	padding-top: 20px;
  }
 
  #banner {
@@ -52,7 +53,7 @@ body {
   position: relative;
   text-align: center;
   width: 20%;
-   padding: 14px;
+  padding: 14px;
 
 }
 
@@ -63,6 +64,8 @@ h2 {
 	letter-spacing: 0.78px;
 	text-decoration: underline;
 	text-decoration-color: #BDCADB;
+	padding-left: 20px;
+	padding-top: 20px;
 
 }
 
@@ -73,6 +76,38 @@ p {
 	letter-spacing: 0.78px;
 }
 
+#left-side {
+	display: grid;
+	grid-template-columns: 550px 550px;
+	grid-template-rows: 400px;
+	grid-gap: 20px;
+	margin-top: 20px;
+	padding-left: 20px;
+
+	/*
+	justify-content: center;
+	align-items: stretch;
+	align-content: center;
+	grid-auto-rows: 500px;
+	grid-auto-flow: column;
+	*/
+	
+}
+
+#button {
+	padding-left: 400px;
+}
+
+#best-sellers {
+
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	grid-template-rows: 250px;
+	grid-gap: 20px;
+	margin-top: 20px;
+	padding-left: 20px;
+
+}
 
 
 
