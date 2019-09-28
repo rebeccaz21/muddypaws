@@ -3,8 +3,7 @@
 
 <head>
     <title>Muddy Paws Adventure Gear</title>
-    <!-- styles -->
-    <!-- fonts --> 
+    <!-- styles abd fonts-->
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
@@ -13,60 +12,128 @@
 </head>
 
 <body>
+    <!-- goes at the top of each page -->
     <div id = "banner">
-        <h1>muddy paws adventure gear</h1>
+
+        <h1> <img class = "paws1" src="cat-footprint.png"/> muddy paws adventure gear <img class = "paws2" src="cat-footprint.png"/> </h1>
+            <!-- navigation bar for each page -->
             <div class="nav">
-                <a href="#">search</a>
+
+                <div class="search">
+                    <img class = "search-image" src="search.png"/>
+                    <span class="caption"> <a href="#">search</a> </span>
+                </div>
+
                 <a href="index.html">home</a>  
                 <a href="shop.html">shop</a>            
                 <a href="#">our story</a>
                 <a href="contact.html">contact</a>
-                <a href="#">pack</a>
+                
+                <div class="pack">
+                    <img class = "pack-image" src="backpack.png"/>
+                    <span class="caption"> <a href="#">pack</a> </span>
+                </div>
 
-            </div>
-
-            <div class = "search">
             </div>
     </div>
 
-    <div id = "filter">
-    </div>
+    <h2> Products </h2>
 
     <div id = "browse">
 
-        <div id = "cat-harness">
-            <h3> Cat Harness </h3>
-            <h4> $19.95 </h4>
+        <div id = "filter">
+
+            <div id ="filter-animal">
+                <p> I am shopping for a: </p>
+                <input type="checkbox" name="cat"> cat
+                <input type="checkbox" name="dog"> dog
+            </div>
+
+            <div id = "filter-size">
+                <p> Size </p>
+
+                <div>
+                    <input type="checkbox" name="tiny"> tiny
+                </div>
+                
+                <div>
+                    <input type="checkbox" name="small"> small
+                </div>
+
+                <div>
+                    <input type="checkbox" name="medium"> medium
+                </div>
+                
+                <div>
+                    <input type="checkbox" name="large"> large
+                </div>
+
+            </div>
+
+            <div id = "filter-color">
+                <p> Color </p>
+
+                <div class = "strawberry">
+                    <input type="checkbox"> strawberry
+                </div>
+
+                <div class = "crazyberry">
+                    <input type="checkbox"> crazyberry
+                </div>
+
+                <div class = "fireorange">
+                    <input type="checkbox"> fire orange
+                </div>
+
+                <div class = "blackberry">
+                    <input type="checkbox"> blackberry
+                </div>
+
+            </div>
+
         </div>
 
-        <div id = "dog-harness"> 
-            <img class = "best-item" src="dog-harness.jpg"/>
-            <h3> Dog Harness </h3>
-            <h4> $19.95 </h4>
+        <div id = "products">
+
+            <div id = "cat-harness">
+                <img class = "browse-item" src="cat-harness.jpg"/>
+                <h3> Cat Harness </h3>
+                <h4> $19.95 </h4>
+            </div>
+
+            <div id = "dog-harness"> 
+                <img class = "browse-item" src="dog-harness.jpg"/>
+                <h3> Dog Harness </h3>
+                <h4> $19.95 </h4>
+            </div>
+
+            <div id = "food-storage"> 
+                <img class = "browse-item" src="food-attach.png"/>
+                <h3> Food Storage Attachment </h3>
+                <h4> $9.95 </h4>
+            </div>
+
+            <div id = "cat-backpack"> 
+                <img class = "browse-item" src="cat-backpack.jpg"/>
+                <h3> <a href="cat-backpack.html">Cat Backpack</a> </h3>
+                <h4> $44.95 </h4>
+            </div>
+
+            <div id = "gps-collar"> 
+                <img class = "browse-item" src="collar.jpeg"/>
+                <h3> GPS Tracking Collar </h3>
+                <h4> $24.95 </h4>
+            </div>
+
+            <div id = "water-storage"> 
+                <img class = "browse-item" src="water-attach.png"/>
+                <h3> Water Storage Attachment </h3>
+                <h4> $24.95 </h4>
+            </div>
+
         </div>
 
-        <div id = "food-storage"> 
-            <h3> Food Storage Attachment </h3>
-            <h4> $9.95 </h4>
-        </div>
-
-        <div id = "cat-backpack"> 
-            <img class = "best-item" src="cat-backpack.jpg"/>
-
-            <h3> <a href="cat-backpack.html">Cat Backpack</a> </h3>
-            <h4> $44.95 </h4>
-        </div>
-
-        <div id = "gps-collar"> 
-            <img class = "best-item" src="collar.jpeg"/>
-            <h3> GPS Tracking Collar </h3>
-            <h4> $24.95 </h4>
-        </div>
-
-        <div id = "water-storage"> 
-            <h3> Water Storage Attachment </h3>
-            <h4> $24.95 </h4>
-        </div>
+        
 
     </div>
 

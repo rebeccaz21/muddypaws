@@ -2,8 +2,8 @@ font-family: "Nunito Sans", sans-serif;
 font-family: "Nunito", sans-serif;
 
 
-background: #BDCADB;
-box-shadow: 0 2px 5px 2px rgba(149,143,143,0.50);
+/* HOME PAGE*/
+
 
 body {
 	font-family: "Nunito", sans-serif;
@@ -20,12 +20,33 @@ body {
 	padding-top: 20px;
  }
 
+ h2 {
+	font-family: "Nunito", sans-serif;
+	font-size: 24px;
+	color: #000000;
+	letter-spacing: 0.78px;
+	text-decoration: underline;
+	text-decoration-color: #BDCADB;
+	padding-left: 20px;
+	padding-top: 20px;
+
+}
+
+p {	
+	font-family: "Nunito";
+	font-size: 14px;
+	color: black;
+	letter-spacing: 0.78px;
+}
+
  h3 {
 
  	font-family: "Nunito", sans-serif;
 	font-size: 20px;
 	color: #000000; 
 	letter-spacing: 0.78px;
+	text-decoration: underline;
+	text-decoration-color:  #BDCADB;
 
  }
 
@@ -44,20 +65,39 @@ body {
 
  }
 
+ img.paws1 {
+ 	width: 35px;
+ 	height: 35px;
+ 	transform: rotate(-33deg);
+	color: #FFFFFF;
+ }
+
+ img.paws2 {
+ 	width: 35px;
+ 	height: 35px;
+ 	transform: rotate(33deg);
+	color: #FFFFFF;
+ }
+
  .nav {
   font-family: "Nunito";
   background: #BDCADB;
+  display: flex;
+  justify-content: space-between;
   position: relative;
   text-align: center;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
+
+
 }
 
 .nav a {
   font-family: "Nunito";
   color: black;
   display: inline-block;
-  padding: 14px;
-  text-decoration: none;
+  padding: 24px;
+  text-decoration:none;
 }
 
 .nav a:hover {
@@ -71,28 +111,57 @@ body {
   position: relative;
   text-align: center;
   width: 20%;
-  padding: 14px;
 
 }
 
-h2 {
-	font-family: "Nunito";
-	font-size: 24px;
-	color: #000000;
-	letter-spacing: 0.78px;
-	text-decoration: underline;
-	text-decoration-color: #BDCADB;
-	padding-left: 20px;
-	padding-top: 20px;
+div.search {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 50px;
 
 }
 
-p {	
-	font-family: "Nunito";
-	font-size: 14px;
-	color: black;
-	letter-spacing: 0.78px;
+.search-image {
+	width: 30px;
+	height: 30px;
+	justify-content: center;
+	padding-left:30px;
 }
+
+.caption {
+    display: inline-block;
+
+}
+
+.pack {
+  font-family: "Nunito";
+  background: #BDCADB;
+  position: relative;
+  text-align: center;
+  width: 20%;
+
+}
+
+div.pack {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+
+}
+
+.pack-image {
+	width: 30px;
+	height: 30px;
+	justify-content: center;
+	padding-left:30px;
+}
+
+#welcome-adventurers {
+	padding-left: 100px;
+}
+
 
 #left-side {
 	display: grid;
@@ -101,26 +170,35 @@ p {
 	grid-gap: 20px;
 	margin-top: 20px;
 	padding-left: 20px;
-
-	/*
 	justify-content: center;
-	align-items: stretch;
-	align-content: center;
-	grid-auto-rows: 500px;
-	grid-auto-flow: column;
-	*/
 	
 }
 
-#button {
+#learn-button {
 	padding-left: 400px;
+}
+
+
+.learn-more {
+
+	background: #DDE9F9;
+	font-family: "Nunito", sans-serif;
+	box-shadow: 0 0 4px 4px rgba(203,203,203,0.50);
+  	border: none;
+  	color: black;
+  	padding: 10px 20px 10px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 12px;
+  	justify-content: center;
 }
 
 #best-sellers {
 
 	display: grid;
-	grid-template-columns: 300px 300px 300px;
-	grid-template-rows: 250px;
+	grid-template-columns: 400px 400px 400px;
+	grid-template-rows: 300px;
 	grid-gap: 20px;
 	margin-top: 20px;
     padding-left: 20px;
@@ -128,30 +206,150 @@ p {
     margin-right: auto;
     justify-content: center;
 
+}
+
+#explore {
+	display: flex;
+  	justify-content: center;
+}
+
+
+.start-exploring {
+
+	background: #DDE9F9;
+	font-family: "Nunito", sans-serif;
+	box-shadow: 0 0 4px 4px rgba(203,203,203,0.50);
+  	border: none;
+  	color: black;
+  	padding: 10px 100px 10px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 24px;
+  	justify-content: center;
+}
+
+.start-exploring a {
+	font-family: "Nunito", sans-serif;
+	font-size: 24px;
+	color: black;
+	text-decoration: none;
+}
+
+.start-exploring a:hover {
+	color:white;
 }
 
 img.best-item {
 	display: block;
-	max-width: 100px;
-	max-height: 100px;
+	max-width: 300px;
+	max-height: 300px;
+
 }
 
-#explore {
-	text-align:center;
-	padding-bottom: 20px;
+
+.best-cat-pack {
+	text-decoration: underline;
+	text-decoration-color:  #BDCADB;
+
 }
+
+/* SHOPPING PAGE */
+
 
 #browse {
+	
+	display:grid;
+	grid-gap: 40px;
+	grid-template-columns: 200px 800px;
+	grid-template-rows: 325px 800px;
+	padding-left:20px;
+
+}
+
+#filter {
+	background: #DDE9F9;
+	padding-left: 20px;
+	box-shadow: 0 0 5px 2px rgba(222,222,222,0.50);
+}
+
+
+#products {
 	display:grid;
 	grid-template-columns: 300px 300px 300px;
-	grid-template-rows: 300px 300px 300px;
-	grid-gap: 20px;
-	margin-top: 20px;
+	grid-template-rows: 400px 400px 400px;
+	grid-gap: 30px;
     padding-left: 20px;
+    padding-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
 
+}
+
+#filter-animal {
+	font-family: "Nunito", sans-serif;
+	font-size: 12px;
+
+}
+
+#filter-size {
+	font-family: "Nunito", sans-serif;
+	font-size: 12px;
+	
+}
+
+#filter-color {
+	font-family: "Nunito", sans-serif;
+	font-size: 12px;
+	
+}
+
+.strawberry {
+	font-family: "Nunito", sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	text-decoration-color: #F884BA;
+
+}
+
+.crazyberry {
+	font-family: "Nunito", sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	text-decoration-color: #65C4EC;
+
+}
+
+.fireorange {
+	font-family: "Nunito", sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	text-decoration-color: #F8B884;
+
+}
+
+.blackberry {
+	font-family: "Nunito", sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	text-decoration-color: #8489F8;
+	padding-bottom: 20px;
+
+}
+
+img.browse-item {
+	display: block;
+	max-width: 300px;
+	max-height: 300px;
+
+}
+
+/* PRODUCT PAGE */
+
+#back {
+	padding-left: 100px;
+	padding-top: 50px;
 }
 
 #product {
@@ -174,10 +372,37 @@ img.backpack {
 
 }
 
+#color .crazyberry {
+	font-family: "Nunito", sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	text-decoration-color: #65C4EC;
+
+}
+
+#color .fireorange {
+	font-family: "Nunito", sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	text-decoration-color: #F8B884;
+
+}
+
+#color .blackberry {
+	font-family: "Nunito", sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	text-decoration-color: #8489F8;
+	padding-bottom: 20px;
+
+}
+
 #information h3 {
 	text-decoration: underline;
 	text-decoration-color: #BDCADB;
+
 }
+
 
 #size {
 	font-family: "Nunito", sans-serif;
@@ -221,5 +446,60 @@ img.backpack {
 	text-decoration: underline;
 	text-decoration-color: #8489F8;
 	padding-bottom: 20px;
+}
+
+
+h3 a {
+	font-family: "Nunito", sans-serif;
+	text-decoration: underline;
+	text-decoration-color: #DDE9F9;
+	color: black;
 
 }
+
+#add {
+	display: flex;
+  	justify-content: center;
+}
+
+#add-button {
+	background: #DDE9F9;
+	font-family: "Nunito", sans-serif;
+	box-shadow: 0 0 4px 4px rgba(203,203,203,0.50);
+  	border: none;
+  	color: black;
+  	padding: 10px 50px 10px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	justify-content: center;
+
+}
+
+.paws3 {
+	width:20px;
+	height: 20px;
+	left-padding: 50px;
+}
+
+#question {
+	display: block;
+  	text-align: center;
+  	width:400px;
+  	height:200px;
+  	justify-content: center;
+}
+
+#container {
+	display: block;
+	justify-content: center;
+	position: relative;
+  	text-align: center;
+  	font-family: "Nunito", sans-serif;
+}
+
+#reviews {
+	padding-left:50px;
+}
+

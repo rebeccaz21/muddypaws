@@ -3,8 +3,7 @@
 
 <head>
     <title>Muddy Paws Adventure Gear</title>
-    <!-- styles -->
-    <!-- fonts --> 
+    <!-- style and fonts -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
@@ -13,29 +12,41 @@
 </head>
 
 <body>
+    <!-- goes at the top of each page -->
     <div id = "banner">
-        <h1>muddy paws adventure gear</h1>
+
+        <h1> <img class = "paws1" src="cat-footprint.png"/> muddy paws adventure gear <img class = "paws2" src="cat-footprint.png"/> </h1>
+            <!-- navigation bar for each page -->
             <div class="nav">
-                <a href="#">search</a>
-                <a href="index.html">home</a>  
-                <a href="shop.html">shop</a>            
-                <a href="#">our story</a>
-                <a href="contact.html">contact</a>
-                <a href="#">pack</a>
 
-            </div>
+                <div class="search">
+                    <img class = "search-image" src="search.png"/> <a href="#">search</a>
+                </div>
 
-            <div class = "search">
+                <div>
+                    <a href="index.html">home</a>  
+                    <a href="shop.html">shop</a>            
+                    <a href="#">our story</a>
+                    <a href="contact.html">contact</a>
+                </div>
+                
+                <div class="pack">
+                    <img class = "pack-image" src="backpack.png"/> <a href="#">pack</a>
+                </div>
+
             </div>
     </div>
 
     <div id = "introduction">
-        <h2> Welcome Adventurers! </h2>
+
+        <div id = "welcome-adventurers">
+            <h2> Welcome Adventurers! </h2>
+        </div>
         <div id = "left-side">
             <div id = "words" >
             <p> We are a small store that sells customizable hiking and adventuring gear for your cat or dog. We are committed to helping all cats and dogs live to their full potential.  </p>
-            <div id = "button"> 
-                <button> Learn More </button>
+            <div id = "learn-button"> 
+                <button class ="learn-more"> Learn More </button>
             </div>
             </div>
             <p> <img src="doggie.jpg"/> </p>
@@ -43,26 +54,28 @@
     </div>
 
     <div id = "explore">
-        <button> Start Exploring </button>
+        <button class ="start-exploring"> <a href="shop.html">Start Exploring</a></button>
     </div>
+
+    <h2> Best-Sellers </h2>
 
     <div id = "best-sellers">
 
         <div id = "cat-backpack"> 
             <img class = "best-item" src="cat-backpack.jpg"/>
-            <p> Cat Backpack </p>
-            <p> $19.95 </p>
+            <h3> <a href="cat-backpack.html" class = "best-cat-pack">Cat Backpack</a> </h3>
+            <p> $44.95 </p>
         </div>
 
         <div id = "gps-collar"> 
             <img class = "best-item" src="collar.jpeg"/>
-            <p> GPS Collar </p>
-            <p> $19.95 </p>
+            <h3> GPS Collar </h3>
+            <p> $24.95 </p>
         </div>
 
         <div id = "dog-harness"> 
             <img class = "best-item" src="dog-harness.jpg"/>
-            <p> Dog Harness </p>
+            <h3> Dog Harness </h3>
             <p> $19.95 </p>
         </div>
 
