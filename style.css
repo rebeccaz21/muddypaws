@@ -122,7 +122,7 @@ div.search {
 
 }
 
-.search-image {
+img.search-image {
 	width: 30px;
 	height: 30px;
 	justify-content: center;
@@ -151,11 +151,11 @@ div.pack {
 
 }
 
-.pack-image {
-	width: 30px;
-	height: 30px;
+img.pack-image {
+	width: 35px;
+	height: 35px;
 	justify-content: center;
-	padding-left:30px;
+	padding-left:25px;
 }
 
 #welcome-adventurers {
@@ -205,6 +205,7 @@ div.pack {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    padding-bottom: 150px;
 
 }
 
@@ -345,6 +346,11 @@ img.browse-item {
 
 }
 
+.prod-descript {
+	justify-content: center;
+	padding-left: 20px;
+}
+
 /* PRODUCT PAGE */
 
 #back {
@@ -356,7 +362,7 @@ img.browse-item {
 	display:grid;
 	grid-template-columns: 300px 500px;
 	grid-template-rows: 400px;
-	grid-gap: 100px;
+	grid-gap: 200px;
 	margin-top: 20px;
     padding-left: 20px;
     margin-left: auto;
@@ -412,7 +418,6 @@ img.backpack {
 #color {
 	font-family: "Nunito", sans-serif;
 	font-size: 12px;
-
 }
 
 
@@ -503,3 +508,7 @@ h3 a {
 	padding-left:50px;
 }
 
+#name {
+	margin: 0 auto;
+	width: 90%;
+}
